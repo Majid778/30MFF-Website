@@ -1,0 +1,124 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar{
+    /* make text in tohe middle of screen */
+    display: flex;
+    justify-content: center;
+
+
+    height: 80px;
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    z-index: 999;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #c91717;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30%;
+    height: 100%;
+    box-sizing: border-box;
+    /*make text back with no underline*/
+    text-decoration: none;
+    color: #c8ad8d;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 20px;
+	background-color: #000000;
+	width: 80%;
+	justify-content: center;
+    border-radius: 10px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%; 
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.card-content{
+    padding-left: 15px;  
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main{
+    display:  flex;
+	/*column and flex:1 to make every section fit into a column*/
+	flex-direction: column;
+	flex:  1;
+	align-items: center;
+    margin-top:  100px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+video{
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 18%;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: #273a2d;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    padding: 0 20px;
+}
