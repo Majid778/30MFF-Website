@@ -42,6 +42,10 @@ body{
     border-radius: 10px;
 }
 
+#mainvid{
+    margin-left:18%;
+}
+
 .card-header{
     display: flex;
     justify-content: center;
