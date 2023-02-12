@@ -1,101 +1,247 @@
-	<!--starter html code-->
-    <head>
-    	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
-    	<meta charset="utf-8">
-    	<title>30MMF WEBSITE</title>
-    	<link rel="stylesheet" href="style.css">
-    	<script src="script.js" defer></script>
-    </head>
-    <body>
-        <div class="main">
-            <div class="navbar">
-                <div>
-                    <h1 class="navbar">30MFF - Similarity</h1>
-                </div>
-            </div>
-            <div class="card">
-                <video width="700" height="400" controls>
-                    <source src="video.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>Plot</h2>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <p>The assignment was to make a short video on whatever topic we wanted within 15 minutes. The project team consisted of me (Majid) and Abraiz. We stumbled onto an incredible wall of posters while brainstorming, and that's what inspired the idea of this video.</p>                        <!-- embed local video-->
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>Cast</h2>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <div class="profile">
-                            <img src="majid.jpg" alt="Majid">
-                            <h3>Majid Ibrahim</h3>
-                            <p>Role: Director/Cameraman</p>
-                        </div>
-                        <div class="profile">
-                            <img src="abraiz.jpg" alt="Abraiz">
-                            <h3>Abraiz Azhar</h3>
-                            <p>Role: Director/Actor</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>About Me</h2>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <p>My name is Majid Ibrahim and I am an Emirati third year computer science student at NYUAD. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>Other Works</h2>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <div id="controls">
-                            <button id="next-btn">&darr;</button>
-                          </div>
-                        <div id="video-carousel" style="padding-left: 20px;">
-                            <div class="video-container">
-                              <video src="video1.mp4" controls></video>
-                              <p>Video 1</p>
-                            </div>
-                            <div class="video-container">
-                              <video src="video2.mp4" controls></video>
-                              <p>Video 2</p>
-                            </div>
-                            <div class="video-container">
-                              <video src="video3.mp4" controls></video>
-                              <p>Video 3</p>
-                            </div>
-                        </div>
-                        <div id="controls">
-                            <button id="prev-btn">&uarr;</button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-
+<head>
+  <!--Import the font I use in the site-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <meta charset="utf-8" />
+  <title>30MMF WEBSITE</title>
+  <!--include js script file for site functionality-->
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="main">
+    <div class="navbar">
+      <div>
+        <!--title of the site-->
+        <h1 class="navbar">30MFF - Similarity</h1>
+      </div>
+    </div>
+    <!--Main video for the site-->
+    <div class="card">
+        <!--embed video-->
         
-              
-              
-              
+        <iframe src="https://drive.google.com/file/d/1BAMyRymtYb-_wgy4gtnUgD3kmDtTm52p/preview"  height="700" allow="fullscreen"></iframe>
+    </div>
+    <!--This card is for explaining the plot of the video-->
+    <div class="card">
+      <div class="card-header">
+        <h2>Plot</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-content">
+          <p style="text-align: center">
+            The project was to create a 15-minute video on any topic of our
+            choosing, followed by the creation of this website. I (Majid) and
+            Abraiz constituted the team for the project. During a brainstorming
+            session, we were inspired to produce this film after discovering an
+            extraordinary wall of posters. Each sentence on the posters
+            displayed in the video evoked a mental image, either figurative or
+            actual. The challenge in creating this film was finding
+            creative ways to approximate the meaning of the phrases on the
+            posters.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--This card is for the cast of the video-->
+    <div class="card">
+      <div class="card-header">
+        <h2>Cast</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-content">
+          <div class="profile">
+            <img
+              src="majid.jpg"
+              alt="Majid"
+              height="250px"
+              width="200px"
+              style="border-radius: 10px"
+            />
+            <h3>Majid Ibrahim</h3>
+            <p>Director/Cameraman</p>
+            <!--This is to display and link to social media sites for each cast member-->
+
+            <div class="card-content">
+              <a
+                href="https://www.instagram.com/majidibrahim778/"
+                target="_blank"
+              >
+                <img
+                  src="insta.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/majid-ibrahim-0b4217250/"
+                target="_blank"
+              >
+                <img
+                  src="linkedin.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+              <a href="https://github.com/Majid778" target="_blank">
+                <img
+                  src="github.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="profile" style="margin-right: 25px">
+            <img
+              src="abraiz.jpg"
+              alt="Abraiz"
+              height="250px"
+              width="200px"
+              style="border-radius: 10px"
+            />
+            <h3>Abraiz Azhar</h3>
+            <p>Director/Actor</p>
+            <!--This is to display and link to social media sites for each cast member-->
+            <div class="card-content">
+              <a href="https://www.instagram.com/abraiz01/" target="_blank">
+                <img
+                  src="insta.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abraizazhar/"
+                target="_blank"
+              >
+                <img
+                  src="linkedin.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+              <a href="https://github.com/Abraiz01" target="_blank">
+                <img
+                  src="github.png"
+                  alt="Instagram"
+                  height="30px"
+                  width="30px"
+                  style="margin-right: 10px"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--This card is explaining more about myself-->
+    <div class="card" margin-top="200px">
+      <div class="card-header">
+        <h2>About Me</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-content">
+          <p style="text-align: center">
+            My name is Majid Ibrahim, and I am 21 years old. I am in my third
+            year as a student at NYUAD. Overall, I am a hardworking and
+            motivated person who is excited to get the most out of my education
+            and experiences at NYUAD. I am studying Computer Science with a
+            minor in Interactive Media. I'm really interested in how technology
+            and creative media come together, and I'm excited to learn and grow
+            in this field. I also have a passion for filmmaking, you can check
+            out my other works down below.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--This card is a video carosel which houses has my other works-->
+    <div class="card">
+      <div class="card-header">
+        <h2>Other Works</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-content" style="margin-right: 25px">
+          <div id="controls">
+            <button
+              id="next-btn"
+              style="
+                margin-right: 20px;
+                margin-bottom: 40px;
+                border-radius: 10px;
+              "
+            >
+              &larr;
+            </button>
+          </div>
+          <div id="video-carousel">
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1vkpUozB4eokip4EXxM6FkU4Yz0rxM7Hu/preview"width="640" height="400" allow="fullscreen" allowfullscreen="true" allowscriptaccess="always"></iframe>
+              <p
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                Pehli Nazar
+              </p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1G9J7cI1dJCf6HK8-Fh-bYXyvfOyJc3oH/preview" width="640" height="400" allow="fullscreen" allowfullscreen="true" allowscriptaccess="always"></iframe>
+              <p
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                Momento Mori
+              </p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1OqLrmTf5PcuyU_zn6Boiyi0rcYBQn3gI/preview" width="640" height="400" allow="fullscreen" allowfullscreen="true" allowscriptaccess="always"></iframe>
+              <p
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                Trip to D.C.
+              </p>
+            </div>
+          </div>
+          <div id="controls">
+            <button
+              id="prev-btn"
+              style="
+                margin-left: 20px;
+                margin-bottom: 40px;
+                border-radius: 10px;
+              "
+            >
+              &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- button to redirect to the top of screen on the bottom right of screen-->
     <button id="topBtn" title="Go to top">&uarr;</button>
-
-            
-
-        </div>
-    </body>
+  </div>
+</body>
